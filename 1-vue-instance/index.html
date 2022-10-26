@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1-vue-instance</title>
+    <script src="https://unpkg.com/vue@next"></script>
+  </head>
+  <body>
+    <div id="app">
+      <h1>{{title}}</h1>
+      <p>{{content}}</p>
+
+      <a v-bind:href="hrefLink.url" :target="hrefLink.target"
+        >{{hrefLink.message}}</a
+      >
+
+      <br />
+      <br />
+      <button v-on:click="updateTtile('Selam')">Selam Ver</button>
+      <button v-on:click="updateTtile('A.Selam')">Selam Al</button>
+
+      <div
+        @click="updateTtile('Box A  Selam')"
+        @mousemove="updateBox($event , 'MouseMovve')"
+        style="
+          border: 1px dashed #ccc;
+          height: 200px;
+          width: 200px;
+          margin-top: 20px;
+          background-color: beige;
+        "
+      ></div>
+      {{"X : " +coordinat.split(",")[0] + ", Y :" + coordinat.split(",")[1]}}
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>

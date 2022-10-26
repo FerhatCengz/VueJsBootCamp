@@ -1,0 +1,12 @@
+Vue.js Nedir? DOM, Event, Attribute Binding, VDom, Style, Koşullar, Döngüler
+
+
+
+Vue.js Nedir ? 
+
+Reaktif Nedir : Sayfa yenilenmeden aksiyon almamızı sağlayan şey.
+
+Framwork nedir : Birden fazla fonksiyonu ve hazır kurlları barındıran ve bizim daha hızlı bir aksamda bulunduran yapıılardır.
+
+
+
