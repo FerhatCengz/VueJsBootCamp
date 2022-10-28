@@ -10,3 +10,25 @@ Framwork nedir : Birden fazla fonksiyonu ve hazır kurlları barındıran ve biz
 
 
 
+
+
+Virtual DOM Nedir ?
+Virtual DOM - Normal DOM ' dan farkı olduğu zaman tetiklenen işlevdir.
+
+
+Computed Nedir ? 
+Bir fonkisyon gibi çalışan değişkenlerdir.
+Geriye bir return etmesi gerekir.
+
+
+
+Watch Nedir ? 
+
+Watch 'Data' da ki ve ya 'Computed' deki değeri eski değer ve yeni değer olarak kısasını yapar
+
+
+
+
+Yaşam Döngüsü Nedir ?
+
+
